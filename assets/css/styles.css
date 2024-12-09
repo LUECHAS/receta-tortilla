@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /*Primary*/
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  /*Neutral*/
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%); 
+  --font-outfit: 'Outfit', sans-serif;
+  --font-young-serif: 'Young Serif', serif;
+  --border-r: 1.5rem;
+}
+
+body {
+  background-color: var(--eggshell);
+  font-family: var(--font-outfit);
+  color: var(--wenge-brown);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+h1, h2 {
+  font-family:var(--font-young-serif);
+  color: var(--nutmeg);
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: initial;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  opacity: .3;
+  margin: 3rem 0;
+}
+
+
+.container {
+  width: 80rem;
+  margin: auto;
+  background-color: var(--white);
+  border-radius: var(--border-r);
+  box-shadow: 0 0 .5rem var(--light-grey);
+  padding: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.img-recipe img {
+  border-radius: 1rem;
+}
+
+.ingredients > p {
+  margin: 2.5rem 0;
+}
+
+.preparation {
+  width: 100%;
+  background-color: var(--rose-white);
+  padding: 2.5rem;
+  border-radius: var(--border-r);
+  margin-bottom: 2.5rem;
+}
+
+.preparation h3{
+  color: var(--dark-raspberry);
+}
+
+.list {
+  padding: 1rem 0 0 2.5rem;
+}
+
+.list li {
+  color: var(--dark-raspberry);
+}
+
+.list-brown {
+  color: var(--nutmeg);
+  font-weight: 900;
+}
+
+.list li p {
+  color: var(--wenge-brown);
+  font-weight: 400;
+  padding: 0 0 1rem 1.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+tr {
+  border-bottom: 1px solid var(--light-grey);
+}
+
+th,
+td {
+  width: 50%;
+  text-transform: capitalize;
+  padding: 1.2rem 2rem;
+}
+
+.colors {
+  color: var(--nutmeg);
+  font-weight: 600;
+}
